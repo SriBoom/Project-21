@@ -59,7 +59,7 @@ if(hasCollided(bullet, wall)){
 
 function hasCollided(bullet, wall){
 
-bulletRightEdge = buller.x+bullet.width;
+bulletRightEdge = bullet.x+bullet.width;
 wallLeftEdge=wall.x;
 if(bulletRightEdge>=wallLeftEdge){
   return true;
